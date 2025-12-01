@@ -5,8 +5,7 @@ An end-to-end Natural Language Processing project that classifies SMS messages a
 ---
 
 ## 🖼️ App Screenshot  
-*(Add your Streamlit / Web App screenshot here)*
-
+![Streamlit App Screenshot](https://github.com/shiwan-mangate/SPAM-MESSAGE-CLASSIFICATION/blob/main/spam-app.png)
 ---
 
 ## 🚀 Motivation  
