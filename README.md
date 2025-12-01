@@ -1,14 +1,14 @@
 # 📧 SMS SPAM DETECTION SYSTEM  
-💡 **Spam Message Classifier using NLP & Machine Learning**  
+ **Spam Message Classifier using NLP & Machine Learning**  
 An end-to-end Natural Language Processing project that classifies SMS messages as **Spam** or **Ham** using TF-IDF vectorization and multiple ML models.
 
 ---
 
-## 🖼️ App Screenshot  
+##  App Screenshot  
 ![Streamlit App Screenshot](https://github.com/shiwan-mangate/SPAM-MESSAGE-CLASSIFICATION/blob/main/spam-app.png)
 ---
 
-## 🚀 Motivation  
+##  Motivation  
 
 Spam messages are increasing rapidly—from fake offers to phishing attempts.  
 This project builds an **intelligent ML-powered spam detector** to:
@@ -72,9 +72,9 @@ This project builds an **intelligent ML-powered spam detector** to:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
-### 📈 **Visualizations Included**
+###  **Visualizations Included**
 - Spam vs Ham **bar plot**  
 - **KDE plots** (characters & words distribution)  
 - **Pairplot** of engineered features  
@@ -87,7 +87,7 @@ Spam messages tend to be longer and contain high-frequency promotional keywords.
 
 ---
 
-## 🔡 Feature Extraction (TF-IDF)
+##  Feature Extraction (TF-IDF)
 
 ### **TF-IDF Vectorization Used**
 tfidf = TfidfVectorizer(max_features=3000)
@@ -140,14 +140,11 @@ The best-performing model based on evaluation:
 - Highly interpretable and widely used in NLP tasks  
 
 ---
-
-## 💾 Model Saving
-pickle.dump(tfidf, open("vectorizer.pkl", "wb"))
-pickle.dump(mnb, open("model.pkl", "wb"))  
+ 
 
 🌐 Streamlit Web App
 
-🚀 Live SMS Spam Classification Web App:
+ Live SMS Spam Classification Web App:
 👉 https://spam-message-classification-by-shiwan.streamlit.app/
 
 📦 GitHub Repository
