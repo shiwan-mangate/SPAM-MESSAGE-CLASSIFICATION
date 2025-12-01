@@ -143,8 +143,6 @@ The best-performing model based on evaluation:
 ---
 
 ## 💾 Model Saving
-
-```python
 pickle.dump(tfidf, open("vectorizer.pkl", "wb"))
 pickle.dump(mnb, open("model.pkl", "wb"))  
 
