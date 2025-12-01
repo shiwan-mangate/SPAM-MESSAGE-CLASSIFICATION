@@ -91,7 +91,6 @@ Spam messages tend to be longer and contain high-frequency promotional keywords.
 ## 🔡 Feature Extraction (TF-IDF)
 
 ### **TF-IDF Vectorization Used**
-```python
 tfidf = TfidfVectorizer(max_features=3000)
 X = tfidf.fit_transform(df['transformed_text']).toarray()
 y = df['target'].values
