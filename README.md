@@ -146,5 +146,15 @@ The best-performing model based on evaluation:
 
 ```python
 pickle.dump(tfidf, open("vectorizer.pkl", "wb"))
-pickle.dump(mnb, open("model.pkl", "wb"))
+pickle.dump(mnb, open("model.pkl", "wb"))  
+
+🌐 Streamlit Web App
+
+🚀 Live SMS Spam Classification Web App:
+👉 https://spam-message-classification-by-shiwan.streamlit.app/
+
+📦 GitHub Repository
+
+📂 Complete Project Code:
+👉 https://github.com/shiwan-mangate/SPAM-MESSAGE-CLASSIFICATION
 
